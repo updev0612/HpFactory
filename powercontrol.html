@@ -1,0 +1,1174 @@
+
+<!--mixin formSelect()-->
+<!--mixin formTextarea()-->
+<!--mixin formRadio()-->
+<!--mixin formCheckbox()--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META TAGS-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- TITLE-->
+    <title>HP Factory - PowerControl</title>
+    <!-- FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="mask-icon" href="./icon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="manifest" href="./icon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <!-- STYLE :: START-->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- STYLE :: END--><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body data-file="powercontrol">
+    <!-- HEADER :: START-->
+    <header class="header" id="header">
+      <div class="c-grid">
+        <div class="header__wrapper">
+          <div class="header__wrapper-left">
+            <div class="logonav logonav--header"><a class="logonav__link" href="/" title=""><img class="logonav__img" srcset="./img/img-logo.png" alt="" title=""/></a></div>
+            <div class="c-hamburger c-hamburger--custom" role="button" hamburger-js="hamburger-js">
+              <div class="c-hamburger__box">
+                <div class="c-hamburger__inner"></div>
+              </div>
+            </div>
+          </div>
+          <div class="header__wrapper-right" mobile-block-js>
+            <div class="header__wrapper-title">
+              <p>Menu główne</p>
+            </div>
+            <nav class="nav nav--header">
+              <ul class="nav__list">
+                <li class="nav__item nav__item-0 nav__item-icon-nav-0"><a class="nav__link nav__link-0" href="#" title="" navdrop-js="">
+                    <div class="nav__link-icon"><i class="icon-png icon-nav-0"></i></div><span class="nav__link-text">Podnoszenie mocy</span></a>
+                </li>
+                <li class="nav__item nav__item-1 nav__item-icon-nav-0"><a class="nav__link nav__link-1" href="#" title="" navdrop-js="">
+                    <div class="nav__link-icon"><i class="icon-png icon-nav-0"></i></div><span class="nav__link-text">Wydech</span></a>
+                </li>
+                <li class="nav__item nav__item-2 nav__item-icon-nav-0"><a class="nav__link nav__link-2" href="#" title="" navdrop-js="navdrop-js">
+                    <div class="nav__link-icon"><i class="icon-png icon-nav-0"></i></div><span class="nav__link-text">Wyglad</span></a>
+                  <div class="nav__link-dropdown">
+                    <ul>
+                      <li><a href="#" title="" navsubdrop-js="navsubdrop-js">Marki</a>
+                        <div class="nav__link-subdropdown">
+                          <ul>
+                            <li><a href="#" title="">Magnaflow</a></li>
+                            <li><a href="#" title="">Magnaflow</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li><a href="#" title="">Marki</a></li>
+                      <li><a href="#" title="" navsubdrop-js="navsubdrop-js">Marki</a>
+                        <div class="nav__link-subdropdown">
+                          <ul>
+                            <li><a href="#" title="">Magnaflow</a></li>
+                            <li><a href="#" title="">Magnaflow</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav__item nav__item-3 nav__item-icon-nav-0"><a class="nav__link nav__link-3" href="#" title="" navdrop-js="">
+                    <div class="nav__link-icon"><i class="icon-png icon-nav-0"></i></div><span class="nav__link-text">Zawieszenie</span></a>
+                </li>
+                <li class="nav__item nav__item-4 nav__item-icon-nav-0"><a class="nav__link nav__link-4" href="#" title="" navdrop-js="">
+                    <div class="nav__link-icon"><i class="icon-png icon-nav-0"></i></div><span class="nav__link-text">Detailing i folie</span></a>
+                </li>
+                <li class="nav__item nav__item-5 nav__item-icon-nav-0"><a class="nav__link nav__link-5" href="#" title="" navdrop-js="">
+                    <div class="nav__link-icon"><i class="icon-png icon-nav-0"></i></div><span class="nav__link-text">Wypożyczalnia</span></a>
+                </li>
+                <li class="nav__item nav__item-6 nav__item-icon-nav-0"><a class="nav__link nav__link-6" href="#" title="" navdrop-js="">
+                    <div class="nav__link-icon"><i class="icon-png icon-nav-0"></i></div><span class="nav__link-text">Serwis premium</span></a>
+                </li>
+                <li class="nav__item nav__item-7 nav__item-icon-nav-1"><a class="nav__link nav__link-7" href="#" title="" navdrop-js="">
+                    <div class="nav__link-icon"><i class="icon-png icon-nav-1"></i></div><span class="nav__link-text">Kontakt</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER :: END-->
+    <div class="body body--start p-powercontrol">
+      <!-- SECTION powercontrol :: START-->
+      <section class="section powercontrol" id="powercontrol">
+        <div class="section__bg section__bg--dark"></div>
+        <div class="c-grid">
+          <div class="powercontrol__wrapper">
+            <div class="powercontrol__row powercontrol__row-0">
+              <div class="powercontrol__row-left">
+                <div class="powercontrol__img-wrapper"><img class="powercontrol__img powercontrol__img--desktop" src="./img/img-powercontrol.png" srcset="./img/img-powercontrol@2x.png 2x" alt="" title=""><img class="powercontrol__img powercontrol__img--mobile" src="./img/img-powercontrol-mobile.png" srcset="./img/img-powercontrol-mobile@2x.png 2x" alt="" title=""><img class="powercontrol__img powercontrol__img--dte-desktop" src="./img/img-powercontrol-dte-desktop.png" srcset="./img/img-powercontrol-dte-desktop@2x.png 2x" alt="" title=""></div>
+              </div>
+              <div class="powercontrol__row-right">
+                <h1 class="powercontrol__title">PowerControl</h1>
+                <p class="powercontrol__text">Najlepszy na rynku moduł tuningowy</p>
+                <div class="powercontrol__block-wrapper">
+                  <div class="powercontrol__block powercontrol__block-0"><img src="./img/img-powercontrol-ind-0.png" srcset="./img/img-powercontrol-ind-0@2x.png 2x" alt="" title="">
+                    <p>+30%</p>
+                  </div>
+                  <div class="powercontrol__block powercontrol__block-1"><img src="./img/img-powercontrol-ind-1.png" srcset="./img/img-powercontrol-ind-1@2x.png 2x" alt="" title="">
+                    <p>+30%</p>
+                  </div>
+                  <div class="powercontrol__block powercontrol__block-2"><img src="./img/img-powercontrol-ind-2.png" srcset="./img/img-powercontrol-ind-2@2x.png 2x" alt="" title="">
+                    <p>-15%</p>
+                  </div>
+                </div>
+                <p class="powercontrol__text powercontrol__text--pb">Zapewnia wzrost mocy i momentu aż do 30%, a ponadto obniża spalanie samochodu do 1l na 100km.</p>
+                <p class="powercontrol__text">Pokochaj swój samochód – na nowo – dzięki chiptuningowi nowej generacji od firmy DTE Systems. <span>Made in Germany.</span></p><img class="powercontrol__img powercontrol__img--dte" src="./img/img-powercontrol-dte.png" srcset="./img/img-powercontrol-dte@2x.png 2x" alt="" title="">
+              </div>
+            </div>
+            <div class="powercontrol__row powercontrol__row-1"><a class="powercontrol__btn c-btn" href="#" title="">Poznaj PowerControl</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION powercontrol :: END-->
+      <!-- SECTION DETAILS :: START-->
+      <section class="details" id="details">
+        <div class="details__row details__row-0">
+          <div class="c-grid">
+            <div class="details__wrapper details__wrapper-0">
+              <div class="details__wrapper-left"><img src="./img/img-details-3.jpg" srcset="./img/img-details-3@2x.jpg 2x" alt="" title="">
+              </div>
+              <div class="details__wrapper-right">
+                <h2 class="details__title">Dla Twojego samochodu</h2>
+                <p class="details__text">Każdy zestaw PowerControl jest programowany, konfigurowany oraz kompletowany specjalnie pod Twoje zamówienie oraz dla Twojego modelu samochodu i silnika.</p>
+                <p class="details__text">Nie jest to produkt uniwersalny, dlatego koniecznie sprawdź, czy opracowaliśmy wersję dla Twojego pojazdu!</p>
+                <div class="details__select">
+                  <form class="c-form" action="" method="">
+                    <div class="c-form__group c-form__group--select">
+                      <div class="c-form__group-col c-form__group-col-0">
+                        <div class="c-form__field c-form__field--select">
+                          <div class="c-form__select-wrap">
+                            <select name="" placeholder="Pokażemy Ci co możemy z nim zrobić!" select-js>
+                              <option value="1">Marka 1</option>
+                              <option value="2">Marka 2</option>
+                              <option value="3">Marka 3</option>
+                              <option value="4">Marka 4</option>
+                              <option value="5">Marka 5</option>
+                              <option value="6">Marka 6</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="c-form__group-col c-form__group-col-1">
+                        <div class="c-form__field c-form__field--select">
+                          <div class="c-form__select-wrap">
+                            <select name="" placeholder="Pokażemy Ci co możemy z nim zrobić!" select-js>
+                              <option value="1">Model 1</option>
+                              <option value="2">Model 2</option>
+                              <option value="3">Model 3</option>
+                              <option value="4">Model 4</option>
+                              <option value="5">Model 5</option>
+                              <option value="6">Model 6</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="c-form__group-col c-form__group-col-2">
+                        <div class="c-form__field c-form__field--select">
+                          <div class="c-form__select-wrap">
+                            <select name="" placeholder="Pokażemy Ci co możemy z nim zrobić!" select-js>
+                              <option value="1">Silnik 1</option>
+                              <option value="2">Silnik 2</option>
+                              <option value="3">Silnik 3</option>
+                              <option value="4">Silnik 4</option>
+                              <option value="5">Silnik 5</option>
+                              <option value="6">Silnik 6</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details__row details__row-1">
+          <div class="c-grid">
+            <div class="details__wrapper details__wrapper-1">
+              <div class="details__wrapper-left">
+                <h2 class="details__title">Bezpieczeństwo</h2>
+                <ul class="details__list">
+                  <li class="details__item">
+                    <div class="details__item-left"><span class="details__item-num">1</span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-title">Nie tracisz fabrycznej gwarancji na swój samochód</p>
+                      <p class="details__item-text">Instalacja PedalBoxa nie wpływa w żaden sposób na fabryczną gwarancję pojazdu. Nie ingerujemy również w żadne ustawienia samochodu.</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span class="details__item-num">2</span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-title">Pełna certyfikację niemieckiego oraz austriackiego urzędu TÜV</p>
+                      <p class="details__item-text">PowerControl musiał przejść szereg wymagających testów określających jego bezpieczeństwo dla Twojego pojazdu. Nasze produkty są okresowo testowane przez TÜV, który tym samym upewnia się, czy nadal spełniamy ich rygorystyczne wymogi.</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span class="details__item-num">3</span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-title">Kupujesz raz, a korzystasz przez wiele lat.</p>
+                      <p class="details__item-text">Jeśli zmienisz samochód, przeprogramujemy za darmo Twój PowerControl tak, aby pasował do nowego pojazdu.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="details__wrapper-right"><img src="./img/img-details-4.jpg" srcset="./img/img-details-4@2x.jpg 2x" alt="" title="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details__row details__row-4">
+          <div class="c-grid">
+            <div class="details__wrapper details__wrapper-4">
+              <div class="details__wrapper-left"><img src="./img/img-details-5.jpg" srcset="./img/img-details-5@2x.jpg 2x" alt="" title=""></div>
+              <div class="details__wrapper-right">
+                <h2 class="details__title">Gwarantujemy satysfakcję</h2>
+                <p class="details__text">Nasz program <span>Gwarancji Satysfakcji</span> składa się z trzech elementów:</p>
+                <ul class="details__list">
+                  <li class="details__item">
+                    <div class="details__item-left"><span class="details__item-num">1</span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-title">14 dni na przetestowanie PedalBox</p>
+                      <p class="details__item-text">Kupując PedalBox otrzymujesz od nas aż 14 dni na sprawdzenie, czy urządzenie spełnia Twoje oczekiwania.</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span class="details__item-num">2</span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-title">Nie tracisz gwarancji</p>
+                      <p class="details__item-text">Instalacja PedalBoxa nie wpływa w żaden sposób na fabryczną gwarancję pojazdu. Nie ingerujemy również w żadne ustawienia samochodu.</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span class="details__item-num">3</span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-title">Pomoc</p>
+                      <p class="details__item-text">Zarówno przed, jak i po zakupie jesteśmy dla Ciebie dostępni przez cały tydzień. Pomożemy w każdej kwestii, wyjaśnimy każde zagadnienie. Najbardziej cenimy sobie zadowolenie naszych klientów.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details__row details__row-2">
+          <div class="c-grid">
+            <div class="details__wrapper details__wrapper-2">
+              <div class="details__wrapper-left"><img src="./img/img-details-6.png" srcset="./img/img-details-6@2x.png 2x" alt="" title="">
+              </div>
+              <div class="details__wrapper-right">
+                <h2 class="details__title">A co znajdę w zestawie?</h2>
+                <p class="details__text">W zestawie otrzymujesz:</p>
+                <ul class="details__list">
+                  <li class="details__item">
+                    <div class="details__item-left"><span></span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-text">Moduł PowerControl</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span></span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-text">Okablowanie zgodne ze wszystkimi normami producentów</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span></span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-text">Instrukcję instalacji w Twoim pojeździe</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span></span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-text">Certyfikat TÜV</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span></span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-text">2 letnią gwarancję na PowerControl</p>
+                    </div>
+                  </li>
+                  <li class="details__item">
+                    <div class="details__item-left"><span></span></div>
+                    <div class="details__item-right">
+                      <p class="details__item-text">Możliwość darmowego przeprogramowania modułu w celu przystosowania do innego samochodu</p>
+                    </div>
+                  </li>
+                </ul><a class="details__btn" href="#" title="">
+                  <div><span><i class="icon-font icon-play"></i></span></div>
+                  <div><span>Zobacz unboxing PowerControl</span></div></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION DETAILS :: END-->
+      <!-- SECTION save :: START-->
+      <section class="save" id="save">
+        <div class="c-grid">
+          <h2 class="save__title">Zaoszczędź do <span>10 000</span> PLN kupując <span>PowerControl</span></h2>
+          <div class="save__wrapper">
+            <div class="swiper-container swiper-container--save">
+              <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="swiper-slide-left">
+                                <div class="save__block save__block-0">
+                                  <div class="save__block-head">
+                                    <p>PowerControl</p>
+                                  </div>
+                                  <div class="save__block-body">
+                                    <div class="save__block-left">
+                                      <p>Audi A7 7.0</p>
+                                    </div>
+                                    <div class="save__block-right">
+                                      <div class="save__block-line save__block-line--0"><span>Moc seryjna 250KM</span>
+                                        <div><span>+40KM</span></div>
+                                      </div>
+                                      <div class="save__block-line save__block-line--1"><span>Moment seryjny 440Nm</span>
+                                        <div><span>+80Nm</span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="save__block save__block-1">
+                                  <div class="save__block-head"></div>
+                                  <div class="save__block-body">
+                                    <div class="save__block-left">
+                                      <p>Audi A7 7.2</p>
+                                    </div>
+                                    <div class="save__block-right">
+                                      <div class="save__block-line save__block-line--0"><span>Moc seryjna 270KM</span></div>
+                                      <div class="save__block-line save__block-line--1"><span>Moment seryjny 460Nm</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide-right">
+                                <div class="swiper-slide-car"><img src="./img/img-save-car.png" srcset="./img/img-save-car@2x.png 2x" alt="" title=""></div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="swiper-slide-left">
+                                <div class="save__block save__block-0">
+                                  <div class="save__block-head">
+                                    <p>PowerControl</p>
+                                  </div>
+                                  <div class="save__block-body">
+                                    <div class="save__block-left">
+                                      <p>Audi A7 7.0</p>
+                                    </div>
+                                    <div class="save__block-right">
+                                      <div class="save__block-line save__block-line--0"><span>Moc seryjna 250KM</span>
+                                        <div><span>+40KM</span></div>
+                                      </div>
+                                      <div class="save__block-line save__block-line--1"><span>Moment seryjny 440Nm</span>
+                                        <div><span>+80Nm</span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="save__block save__block-1">
+                                  <div class="save__block-head"></div>
+                                  <div class="save__block-body">
+                                    <div class="save__block-left">
+                                      <p>Audi A7 7.2</p>
+                                    </div>
+                                    <div class="save__block-right">
+                                      <div class="save__block-line save__block-line--0"><span>Moc seryjna 270KM</span></div>
+                                      <div class="save__block-line save__block-line--1"><span>Moment seryjny 460Nm</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide-right">
+                                <div class="swiper-slide-car"><img src="./img/img-save-car.png" srcset="./img/img-save-car@2x.png 2x" alt="" title=""></div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="swiper-slide-left">
+                                <div class="save__block save__block-0">
+                                  <div class="save__block-head">
+                                    <p>PowerControl</p>
+                                  </div>
+                                  <div class="save__block-body">
+                                    <div class="save__block-left">
+                                      <p>Audi A7 7.0</p>
+                                    </div>
+                                    <div class="save__block-right">
+                                      <div class="save__block-line save__block-line--0"><span>Moc seryjna 250KM</span>
+                                        <div><span>+40KM</span></div>
+                                      </div>
+                                      <div class="save__block-line save__block-line--1"><span>Moment seryjny 440Nm</span>
+                                        <div><span>+80Nm</span></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="save__block save__block-1">
+                                  <div class="save__block-head"></div>
+                                  <div class="save__block-body">
+                                    <div class="save__block-left">
+                                      <p>Audi A7 7.2</p>
+                                    </div>
+                                    <div class="save__block-right">
+                                      <div class="save__block-line save__block-line--0"><span>Moc seryjna 270KM</span></div>
+                                      <div class="save__block-line save__block-line--1"><span>Moment seryjny 460Nm</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide-right">
+                                <div class="swiper-slide-car"><img src="./img/img-save-car.png" srcset="./img/img-save-car@2x.png 2x" alt="" title=""></div>
+                              </div>
+                            </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION save :: END-->
+      <!-- SECTION article :: START-->
+      <section class="article" id="article">
+        <div class="c-grid">
+          <div class="article__wrapper">
+            <div class="article__wrapper-left"><img src="./img/img-article-main.png" srcset="./img/img-article-main@2x.png 2x" alt="" title=""></div>
+            <div class="article__wrapper-right">
+              <p class="article__text">PowerControl po raz kolejny zwycięzcą testu magazynu EuroTuner</p>
+              <div class="article__btn-wrapper"><a class="article__btn c-btn" href="#" title="">Pobierz artykuł</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION article :: END-->
+      <!-- SECTION assembly :: START-->
+      <section class="assembly" id="assembly">
+        <div class="c-grid"><img class="assembly__img assembly__img--mobile" src="./img/img-assembly-0.jpg" srcset="./img/img-assembly-0@2x.jpg 2x" alt="" title="">
+          <div class="assembly__header">
+            <div>
+              <p class="assembly__title">Montaż wraz z pomiarami na hamowni MAHA</p>
+            </div>
+            <div><img src="./img/img-assembly-logo.png" srcset="./img/img-assembly-logo@2x.png 2x" alt="" title=""></div>
+          </div>
+          <div class="assembly__wrapper">
+            <div class="assembly__wrapper-left">
+              <ul class="assembly__list">
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">1</span><span class="assembly__list-line"></span></div>
+                  <div>
+                    <h3><span>1.</span>Umów się</h3>
+                    <p><span>Skontaktuj się z nami</span>, aby umówić się na wybrany przez siebie termin. Pamiętaj, że zawsze z chęcią odpowiemy na wszystkie Twoje pytania — jesteśmy dla Was dostępni przez cały czas.</p>
+                  </div>
+                </li>
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">2</span><span class="assembly__list-line"></span></div>
+                  <div>
+                    <h3><span>2.</span>Przyjedź</h3>
+                    <p>Przed montażem oraz pomiarami, nasz pracownik przekaże Ci wszystkie dokumenty związane z Twoim zakupem oraz poinformuje o tym, jak będzie przebiegała procedura. Operacja trwa zazwyczaj od 1,5h do 2,5h a Ty możesz czekać na miejscu w komfortowej poczekalni.</p>
+                  </div>
+                </li>
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">3</span><span class="assembly__list-line"></span></div>
+                  <div>
+                    <h3><span>3.</span>Pierwsze pomiary</h3>
+                    <p>Wykonane zostaną pomiary Twojego auta przed modyfikacją, abyśmy mieli punkt odniesienia. Dysponujemy nowoczesną hamownią obciążeniową 4×4 firmy Dynoproject, więc możemy zmierzyć każdy rodzaj pojazdu.</p>
+                  </div>
+                </li>
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">4</span><span class="assembly__list-line"></span></div>
+                  <div>
+                    <h3><span>4.</span>Montaż oraz pomiary po modyfikacji</h3>
+                    <p>Przeprowadzimy montaż Performance Pack w Twoim pojeździe. Następnie wykonamy kolejne pomiary na hamowni celem wybrania najlepszego programu oraz ustawień dla Twojego samochodu.</p>
+                  </div>
+                </li>
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">5</span></div>
+                  <div>
+                    <h3><span>5.</span>Odbiór pojazdu</h3>
+                    <p>Po modyfikacji zaprezentujemy Ci wynik wraz z nałożonymi na siebie wykresami przed i po modyfikacji, przez co będziesz mógł łatwo ocenić wyniki naszej pracy. Następnie pokażemy Ci, jak został zamontowany moduł oraz przekażemy wszelkie uwagi, abyś w przyszłości mógł samemu zdemontować moduł i okablowanie przed wizytą w serwisie. Odbędziemy też krótką jazdę próbną z Tobą, abyś finalnie mógł odebrać swój „nowy” samochód.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="assembly__wrapper-right"><img src="./img/img-assembly-0.jpg" srcset="./img/img-assembly-0@2x.jpg 2x" alt="" title=""><img src="./img/img-assembly-1.jpg" srcset="./img/img-assembly-1@2x.jpg 2x" alt="" title=""></div>
+          </div><img class="assembly__img assembly__img--mobile" src="./img/img-assembly-1.jpg" srcset="./img/img-assembly-1@2x.jpg 2x" alt="" title="">
+        </div>
+      </section>
+      <!-- SECTION assembly :: END-->
+      <!-- SECTION period :: START-->
+      <section class="period" id="period">
+        <div class="c-grid">
+          <div class="period__wrapper">
+            <div class="period__wrapper-left"><img src="./img/img-period-main.png" srcset="./img/img-period-main@2x.png 2x" alt="" title=""></div>
+            <div class="period__wrapper-right">
+              <h1 class="period__title">14 dniowy okres testowy</h1>
+              <p class="period__text">Pamiętaj, że mimo montażu wraz z pomiarami na hamowni nadal przysługuje Ci 14 dni na przetestowanie produktu. Jeśli uzyskany przyrost nie będzie zadowalający lub cokolwiek innego nie będzie przebiegać po Twojej myśli masz pełne prawo do zwrotu, zaś my zwrócimy Ci pełną kwotę poniesioną za produkt.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION period :: END-->
+      <!-- SECTION ITEM :: START-->
+      <section class="item" id="item">
+        <div class="c-grid">
+          <h2 class="item__title">Dwie wersje produktu</h2>
+          <div class="item__wrapper">
+            <div class="item__row item__row-0">
+              <div class="item__row-left">
+                <div class="item__mobile">
+                  <p class="item__subtitle">PowerControl</p>
+                </div>
+                <div class="item__image"><img src="./img/img-powercontrol-main.png" srcset="./img/img-powercontrol-main@2x.png 2x" alt="" title="">
+                </div>
+              </div>
+              <div class="item__row-right">
+                <p class="item__subtitle">PowerControl</p>
+                <div class="item__block">
+                  <div class="product__box-footer">
+                    <ul>
+                      <li>
+                        <div><img src="./img/img-item-2.png" srcset="./img/img-item-2@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Bez utraty gwarancji</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>4 programy do wyboru</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li class="item__block--wm">
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Ponad 20 ustawień</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li class="item__block--wm">
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Funkcja pamięci</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item__row item__row-1">
+              <div class="item__row-left">
+                <div class="item__mobile">
+                  <p class="item__subtitle">PowerControl X</p>
+                </div>
+                <div class="item__image"><img src="./img/img-powercontrol-x-main.png" srcset="./img/img-powercontrol-x-main@2x.png 2x" alt="" title="">
+                </div>
+              </div>
+              <div class="item__row-right">
+                <p class="item__subtitle">PowerControl X</p>
+                <div class="item__block">
+                  <div class="product__box-footer">
+                    <ul>
+                      <li>
+                        <div><img src="./img/img-item-2.png" srcset="./img/img-item-2@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Bez utraty gwarancji</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>4 programy do wyboru</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Ponad 20 ustawień</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Funkcja pamięci</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li class="item__block--plus">
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>PerfecTune</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li class="item__block--plus">
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Nowy wygląd</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li class="item__block--wm item__block--plus">
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Większa precyzja</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION ITEM :: END-->
+      <!-- SECTION APPLICATION :: START-->
+      <section class="application" id="application">
+        <div class="application__wrapper">
+          <div class="application__bg"><span></span><span></span><span></span></div>
+          <div class="c-grid">
+            <div class="application__row">
+              <div class="application__row-left">
+                <div class="application__mobile">
+                  <h2 class="application__title">Aplikacja Pedalbox</h2>
+                  <p class="application__subtitle">Dostępna tylko dla Pedalbox+</p>
+                </div><img src="./img/img-phone-application.png" srcset="./img/img-phone-application@2x.png 2x" alt="" title="">
+              </div>
+              <div class="application__row-right">
+                <h2 class="application__title">Aplikacja Pedalbox</h2>
+                <p class="application__subtitle">Dostępna tylko dla Pedalbox+</p>
+                <div class="application__block">
+                  <div class="product__box-footer">
+                    <ul>
+                      <li>
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Kontrola Pedalbox przez appkę</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Możliwość dopasowania programu</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Zawsze aktualne oprogramowanie</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div><img src="./img/img-product-list.png" srcset="./img/img-product-list@2x.png 2x" alt="" title=""></div>
+                        <div>
+                          <h3>Ponad 20 ustawień</h3>
+                          <p>Programy Sport, Sport Plus oraz City.</p><span>Dodatkowo czwarty program to program seryjny.</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="application__btn-wrapper"><a class="application__btn application__btn--ios" href="#" title=""><img src="/img/img-ios.png" srcset="/img/img-ios@2x.png 2x" alt="" title=""></a><a class="application__btn application__btn--android" href="#" title=""><img src="/img/img-android.png" srcset="/img/img-android@2x.png 2x" alt="" title=""></a></div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION APPLICATION :: END-->
+      <!-- SECTION generation :: START-->
+      <section class="generation" id="generation">
+        <div class="c-grid">
+          <div class="generation__wrapper generation__wrapper-0">
+            <div class="details__row details__row-2">
+              <div class="c-grid">
+                <div class="details__wrapper details__wrapper-2">
+                  <div class="details__wrapper-left"><img src="./img/img-details-7.jpg" srcset="./img/img-details-7@2x.jpg 2x" alt="" title=""></div>
+                  <div class="details__wrapper-right">
+                    <h2 class="details__title">Chiptuning nowej generacji</h2>
+                    <p class="details__text">PowerControl to produkt premium na rynku chiptuningu na świecie. Dlatego też jego obudowa wykonana jest z włókna szklanego, a wnętrze zalane specjalną żywicą epoksydową, aby chronić podzespoły elektroniczne.</p><a class="details__btn" href="#" title="">
+                      <div><span><i class="icon-font icon-play"></i></span></div>
+                      <div><span>Zobacz unboxing PowerControl</span></div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="generation__wrapper generation__wrapper-1">
+            <div class="generation__block-wrapper">
+              <div class="generation__block generation__block-0">
+                <div class="generation__block-left"><img src="./img/img-generation.png" srcset="./img/img-generation@2x.png 2x" alt="" title=""></div>
+                <div class="generation__block-right">
+                  <p class="generation__block-title">Do 6 kanałów</p>
+                  <p class="generation__block-text">Moduł PowerControl łączony jest z silnikiem za pomocą minimum 3 a maksimum 6 specjalnie wyprodukowanych kabli (wyjątkiem są starsze konstrukcje diesla). Odróżnia to go od zwykłych produktów typu powerbox lub chiptuning box, które zazwyczaj maksymalnie obsługują 2 kanały (podłączenie za pomocą 2 kabli), a często nawet tylko jeden. Dodatkowe połączenia w PowerControl pozwalają na bezpieczniejszy tuning oraz na tworzenie prawdziwych, trójwymiarowych map dla silnika — tak jak to dzieje się w przypadku standardowego chiptuningu. Oznacza to znacznie większą kontrolę nad działaniem tuningu, a co za tym idzie bezproblemową eksploatację zmodyfikowanego silnika.</p>
+                </div>
+              </div>
+              <div class="generation__block generation__block-1">
+                <div class="generation__block-left"><img src="./img/img-generation.png" srcset="./img/img-generation@2x.png 2x" alt="" title=""></div>
+                <div class="generation__block-right">
+                  <p class="generation__block-title">Do 6 kanałów</p>
+                  <p class="generation__block-text">Moduł PowerControl łączony jest z silnikiem za pomocą minimum 3 a maksimum 6 specjalnie wyprodukowanych kabli (wyjątkiem są starsze konstrukcje diesla). Odróżnia to go od zwykłych produktów typu powerbox lub chiptuning box, które zazwyczaj maksymalnie obsługują 2 kanały (podłączenie za pomocą 2 kabli), a często nawet tylko jeden. Dodatkowe połączenia w PowerControl pozwalają na bezpieczniejszy tuning oraz na tworzenie prawdziwych, trójwymiarowych map dla silnika — tak jak to dzieje się w przypadku standardowego chiptuningu. Oznacza to znacznie większą kontrolę nad działaniem tuningu, a co za tym idzie bezproblemową eksploatację zmodyfikowanego silnika.</p>
+                </div>
+              </div>
+              <div class="generation__block generation__block-2">
+                <div class="generation__block-left"><img src="./img/img-generation.png" srcset="./img/img-generation@2x.png 2x" alt="" title=""></div>
+                <div class="generation__block-right">
+                  <p class="generation__block-title">Do 6 kanałów</p>
+                  <p class="generation__block-text">Moduł PowerControl łączony jest z silnikiem za pomocą minimum 3 a maksimum 6 specjalnie wyprodukowanych kabli (wyjątkiem są starsze konstrukcje diesla). Odróżnia to go od zwykłych produktów typu powerbox lub chiptuning box, które zazwyczaj maksymalnie obsługują 2 kanały (podłączenie za pomocą 2 kabli), a często nawet tylko jeden. Dodatkowe połączenia w PowerControl pozwalają na bezpieczniejszy tuning oraz na tworzenie prawdziwych, trójwymiarowych map dla silnika — tak jak to dzieje się w przypadku standardowego chiptuningu. Oznacza to znacznie większą kontrolę nad działaniem tuningu, a co za tym idzie bezproblemową eksploatację zmodyfikowanego silnika.</p>
+                </div>
+              </div>
+              <div class="generation__block generation__block-3">
+                <div class="generation__block-left"><img src="./img/img-generation.png" srcset="./img/img-generation@2x.png 2x" alt="" title=""></div>
+                <div class="generation__block-right">
+                  <p class="generation__block-title">Do 6 kanałów</p>
+                  <p class="generation__block-text">Moduł PowerControl łączony jest z silnikiem za pomocą minimum 3 a maksimum 6 specjalnie wyprodukowanych kabli (wyjątkiem są starsze konstrukcje diesla). Odróżnia to go od zwykłych produktów typu powerbox lub chiptuning box, które zazwyczaj maksymalnie obsługują 2 kanały (podłączenie za pomocą 2 kabli), a często nawet tylko jeden. Dodatkowe połączenia w PowerControl pozwalają na bezpieczniejszy tuning oraz na tworzenie prawdziwych, trójwymiarowych map dla silnika — tak jak to dzieje się w przypadku standardowego chiptuningu. Oznacza to znacznie większą kontrolę nad działaniem tuningu, a co za tym idzie bezproblemową eksploatację zmodyfikowanego silnika.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION generation :: END-->
+      <!-- SECTION wiring :: START-->
+      <section class="wiring" id="wiring">
+        <div class="c-grid">
+          <div class="wiring__wrapper wiring__wrapper-0">
+            <div class="wiring__wrapper-left">
+              <div class="swiper-container swiper-container--wiring-0">
+                <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/img-wiring-0.jpg" srcset="./img/img-wiring-0@2x.jpg 2x" alt="" title=""></div>
+                                <div class="swiper-slide"><img src="./img/img-wiring-0.jpg" srcset="./img/img-wiring-0@2x.jpg 2x" alt="" title=""></div>
+                                <div class="swiper-slide"><img src="./img/img-wiring-0.jpg" srcset="./img/img-wiring-0@2x.jpg 2x" alt="" title=""></div>
+                                <div class="swiper-slide"><img src="./img/img-wiring-0.jpg" srcset="./img/img-wiring-0@2x.jpg 2x" alt="" title=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+            <div class="wiring__wrapper-right">
+              <p class="wiring__title">Okablowanie</p>
+              <p class="wiring__text">Każdy model samochodu i jego silnik posiada indywidualny rodzaj okablowania. Jest ono często tworzone przy współpracy z producentami pojazdów. Dzięki temu nasze okablowanie jest w stu procentach zgodne i odpowiednie jakościowo do oryginalnego w Twoim samochodzie. Co ważne, okablowanie jest w całości produkowane w naszej fabryce w Niemczech. Pod żadnym pozorem nie jest to tani chiński zamiennik niskiej jakości.</p>
+            </div>
+          </div>
+          <div class="wiring__wrapper wiring__wrapper-1">
+            <div class="wiring__wrapper-left">
+              <p class="wiring__title">Instalacja</p>
+              <p class="wiring__text">Zadbaliśmy o to, aby proces instalacji był możliwie najprostszy. PowerControl może zamontować w swoim samochodzie każdy — nie trzeba posiadać specjalistycznej wiedzy, a zajmie to maksymalnie kilka minut. W razie jakichkolwiek problemów z instalacją wystarczy się z nami skontaktować, a zrobimy wszystko, co w naszej mocy, aby Ci pomóc. Nasza instrukcja instalacji jest spersonalizowana pod dany model samochodu i silnika, przez co ilustracje wiernie oddają to, co faktycznie widzisz u siebie pod maską. Obok znajduje się kilka przykładowych widoków z instrukcji instalacji PowerControl dla VW Golf VII 1.4 TSI.</p><a class="details__btn" href="#" title="">
+                <div><span><i class="icon-font icon-play"></i></span></div>
+                <div><span>Zobacz unboxing PowerControl</span></div></a>
+            </div>
+            <div class="wiring__wrapper-right">
+              <div class="swiper-container swiper-container--wiring-1">
+                <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/img-wiring-1.jpg" srcset="./img/img-wiring-1@2x.jpg 2x" alt="" title=""></div>
+                                <div class="swiper-slide"><img src="./img/img-wiring-1.jpg" srcset="./img/img-wiring-1@2x.jpg 2x" alt="" title=""></div>
+                                <div class="swiper-slide"><img src="./img/img-wiring-1.jpg" srcset="./img/img-wiring-1@2x.jpg 2x" alt="" title=""></div>
+                                <div class="swiper-slide"><img src="./img/img-wiring-1.jpg" srcset="./img/img-wiring-1@2x.jpg 2x" alt="" title=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION wiring :: END-->
+      <!-- SECTION created :: START-->
+      <section class="created" id="created">
+        <div class="application__bg"><span></span><span></span><span></span></div>
+        <div class="c-grid">
+          <div class="created__wrapper"><img class="created__img created__img--mobile" src="./img/img-created-0.jpg" srcset="./img/img-created-0@2x.jpg 2x" alt="" title="">
+            <div class="assembly__header">
+              <div>
+                <p class="assembly__title">Jak powstaje program dla Twojego pojazdu</p>
+              </div>
+            </div>
+          </div>
+          <div class="assembly__wrapper">
+            <div class="assembly__wrapper-left">
+              <ul class="assembly__list">
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">1</span><span class="assembly__list-line"></span></div>
+                  <div>
+                    <h3><span>1.</span>Pierwszy kontakt</h3>
+                    <p>Samochód otrzymujemy od producenta lub jego lokalnego przedstawiciela. Często dostajemy również wytyczne od producenta określające charakterystykę danego silnika oraz jego seryjne ograniczenia, co pomaga nam w ustaleniu jego bezpiecznych limitów.</p>
+                  </div>
+                </li>
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">2</span><span class="assembly__list-line"></span></div>
+                  <div>
+                    <h3><span>2.</span>Pomiary</h3>
+                    <p>Następnie wykonujemy wszelkie niezbędne pomiary elementów silnika, sczytujemy najważniejsze wartości z pojazdu oraz robimy kilkanaście pomiarów na hamowni celem określenia seryjnych parametrów. Sprawdzamy również zachowanie silnika pod różnym typem obciążenia.</p>
+                  </div>
+                </li>
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">3</span><span class="assembly__list-line"></span></div>
+                  <div>
+                    <h3><span>3.</span>Test samochodu</h3>
+                    <p>Opracowujemy następnie kilka map, które testujemy przez najbliższe dwa tygodnie. Silnik poddawany jest testom wytrzymałościowym oraz wydajnościowym. Sprawdzamy również działanie seryjnych zabezpieczeń silnika, aby upewnić się, że finalny program jest w stu procentach bezpieczny.</p>
+                  </div>
+                </li>
+                <li class="assembly__list-item">
+                  <div><span class="assembly__list-num">4</span></div>
+                  <div>
+                    <h3><span>4.</span>Instalacja</h3>
+                    <p>Dopiero po wykonaniu tych wszystkich czynności typujemy jeden, najlepszy program, który dostarcza zarówno dużego przyrostu mocy jak i momentu obrotowego, ale zarówno jest możliwie bezpieczny dla silnika. Za każdym razem musimy się upewnić, że silnik będzie pracował poprawnie w każdych warunkach i zachowa swoje parametry, nawet kiedy będzie przegrzany lub dostanie kiepskiej jakości paliwo. Przejście przez tak długi proces powoduje, że jesteśmy w stanie zaoferować naszym klientom rozszerzoną gwarancję na pojazd oraz otrzymać bardzo prestiżową certyfikację urzędu TÜV.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="assembly__wrapper-right"><img src="./img/img-created-0.jpg" srcset="./img/img-created-0@2x.jpg 2x" alt="" title=""><img src="./img/img-created-1.jpg" srcset="./img/img-created-1@2x.jpg 2x" alt="" title=""></div>
+          </div><img class="created__img created__img--mobile" src="./img/img-created-1.jpg" srcset="./img/img-created-1@2x.jpg 2x" alt="" title="">
+        </div>
+      </section>
+      <!-- SECTION created :: END-->
+      <!-- SECTION control :: START-->
+      <section class="control" id="control">
+        <div class="c-grid">
+          <h1 class="control__title">Auta pracujące pod kontrolą PowerControl</h1>
+          <div class="control__wrapper">
+            <div class="swiper-container swiper-container--control">
+              <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="swiper-slide-top"><img src="./img/img-control-0.jpg" srcset="./img/img-control-0@2x.jpg 2x" alt="" title=""></div>
+                              <div class="swiper-slide-bottom">
+                                <div>
+                                  <p class="control__name">Ferrari 488 GTB</p>
+                                </div>
+                                <div>
+                                  <div class="control__info">
+                                    <p>Moc silnika</p><img src="./img/img-control-moc.png" srcset="./img/img-control-moc@2x.png 2x" alt="" title=""><span>+30%</span>
+                                  </div>
+                                  <div class="control__info">
+                                    <p>Moment obrotowy</p><img src="./img/img-control-moment.png" srcset="./img/img-control-moment@2x.png 2x" alt="" title=""><span>+15%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="swiper-slide-top"><img src="./img/img-control-0.jpg" srcset="./img/img-control-0@2x.jpg 2x" alt="" title=""></div>
+                              <div class="swiper-slide-bottom">
+                                <div>
+                                  <p class="control__name">Ferrari 488 GTB</p>
+                                </div>
+                                <div>
+                                  <div class="control__info">
+                                    <p>Moc silnika</p><img src="./img/img-control-moc.png" srcset="./img/img-control-moc@2x.png 2x" alt="" title=""><span>+30%</span>
+                                  </div>
+                                  <div class="control__info">
+                                    <p>Moment obrotowy</p><img src="./img/img-control-moment.png" srcset="./img/img-control-moment@2x.png 2x" alt="" title=""><span>+15%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="swiper-slide-top"><img src="./img/img-control-0.jpg" srcset="./img/img-control-0@2x.jpg 2x" alt="" title=""></div>
+                              <div class="swiper-slide-bottom">
+                                <div>
+                                  <p class="control__name">Ferrari 488 GTB</p>
+                                </div>
+                                <div>
+                                  <div class="control__info">
+                                    <p>Moc silnika</p><img src="./img/img-control-moc.png" srcset="./img/img-control-moc@2x.png 2x" alt="" title=""><span>+30%</span>
+                                  </div>
+                                  <div class="control__info">
+                                    <p>Moment obrotowy</p><img src="./img/img-control-moment.png" srcset="./img/img-control-moment@2x.png 2x" alt="" title=""><span>+15%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="swiper-slide-top"><img src="./img/img-control-0.jpg" srcset="./img/img-control-0@2x.jpg 2x" alt="" title=""></div>
+                              <div class="swiper-slide-bottom">
+                                <div>
+                                  <p class="control__name">Ferrari 488 GTB</p>
+                                </div>
+                                <div>
+                                  <div class="control__info">
+                                    <p>Moc silnika</p><img src="./img/img-control-moc.png" srcset="./img/img-control-moc@2x.png 2x" alt="" title=""><span>+30%</span>
+                                  </div>
+                                  <div class="control__info">
+                                    <p>Moment obrotowy</p><img src="./img/img-control-moment.png" srcset="./img/img-control-moment@2x.png 2x" alt="" title=""><span>+15%</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION control :: END-->
+      <!-- SECTION types :: START-->
+      <section class="types" id="types">
+        <div class="types__wrapper types__wrapper-0">
+          <div class="types__bg"><span></span><span></span><span></span></div>
+          <div class="c-grid">
+            <h1 class="types__title">Rodzaje programów</h1>
+            <div class="types__slider">
+              <div class="swiper-container swiper-container--types">
+                <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                  <div class="types__box types__box-0"><img src="./img/img-types-0.png" srcset="./img/img-types-0@2x.png 2x" alt="" title="">
+                                    <p class="types__box-title">Sport</p>
+                                    <p class="types__box-desc">(zmienia kolor diody na kolor czerwony)</p>
+                                    <p class="types__box-text">Najmocniejszy tryb pracy – tuning w pełnej okazałości. Idealny jeśli chcesz poczuć całą moc drzemiącą w Twoim samochodzie.</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="types__box types__box-1"><img src="./img/img-types-1.png" srcset="./img/img-types-1@2x.png 2x" alt="" title="">
+                                    <p class="types__box-title">Dynamic</p>
+                                    <p class="types__box-desc">(zmienia kolor diody na kolor żółty)</p>
+                                    <p class="types__box-text">Jest to idealny tryb do codziennej jazdy, kiedy potrzebujemy większej dynamiki, ale nadal dbamy o ekonomię jazdy.</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="types__box types__box-2"><img src="./img/img-types-2.png" srcset="./img/img-types-2@2x.png 2x" alt="" title="">
+                                    <p class="types__box-title">Eco</p>
+                                    <p class="types__box-desc">(zmienia kolor diody na kolor zielony)</p>
+                                    <p class="types__box-text">Najlepszy tryb do typowej jazdy miejskiej od świateł do świateł. Charakteryzuje się przede wszystkim oszczędnością paliwa.</p>
+                                  </div>
+                                </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+            <div class="types__box-wrapper">
+              <div class="types__box types__box-0"><img src="./img/img-types-0.png" srcset="./img/img-types-0@2x.png 2x" alt="" title="">
+                <p class="types__box-title">Sport</p>
+                <p class="types__box-desc">(zmienia kolor diody na kolor czerwony)</p>
+                <p class="types__box-text">Najmocniejszy tryb pracy – tuning w pełnej okazałości. Idealny jeśli chcesz poczuć całą moc drzemiącą w Twoim samochodzie.</p>
+              </div>
+              <div class="types__box types__box-1"><img src="./img/img-types-1.png" srcset="./img/img-types-1@2x.png 2x" alt="" title="">
+                <p class="types__box-title">Dynamic</p>
+                <p class="types__box-desc">(zmienia kolor diody na kolor żółty)</p>
+                <p class="types__box-text">Jest to idealny tryb do codziennej jazdy, kiedy potrzebujemy większej dynamiki, ale nadal dbamy o ekonomię jazdy.</p>
+              </div>
+              <div class="types__box types__box-2"><img src="./img/img-types-2.png" srcset="./img/img-types-2@2x.png 2x" alt="" title="">
+                <p class="types__box-title">Eco</p>
+                <p class="types__box-desc">(zmienia kolor diody na kolor zielony)</p>
+                <p class="types__box-text">Najlepszy tryb do typowej jazdy miejskiej od świateł do świateł. Charakteryzuje się przede wszystkim oszczędnością paliwa.</p>
+              </div>
+            </div>
+            <div class="types__col">
+              <div class="working__block working__block-0">
+                <div class="working__block-left"><span>+</span></div>
+                <div class="working__block-middle">
+                  <p>Użyj symbolu plusa, żeby zwiększyć czułość modułu</p><span>3 stopnie zwiększonej czułości, wyświetlane na czerwono</span>
+                </div>
+              </div>
+              <div class="working__block working__block-1">
+                <div class="working__block-left"><span>-</span></div>
+                <div class="working__block-middle">
+                  <p>Użyj symbolu minusa, żeby zmniejszyć czułość modułu</p><span>3 stopnie zmniejszonej czułości, wyświetlane na zielono</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="types__wrapper types__wrapper-1">
+          <div class="c-grid">
+            <div class="types__video">
+              <div class="types__video-wrapper">
+                <p>Zobacz video z montażem krok po kroku</p><a href="#" title=""><i class="icon-font icon-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION types :: END-->
+      <!-- SECTION order :: START-->
+      <section class="order" id="order">
+        <div class="order__bg"></div>
+        <div class="c-grid">
+          <div class="order__wrapper">
+            <div class="order__wrapper-left"><img src="./img/img-pedalbox-slider-3.png" srcset="./img/img-pedalbox-slider-3@2x.png 2x" alt="" title=""></div>
+            <div class="order__wrapper-middle">
+              <p>Zamów PowerControl w zestawie z modułem Pedalbox</p><span>a otrzymasz 10% rabatu do całego zamówienia</span>
+            </div>
+            <div class="order__wrapper-right"><a class="order__btn c-btn" href="#" title="">Poznaj Pedalbox</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION order :: END-->
+      <!-- SECTION CERTIFICATES :: START-->
+      <section class="certificates" id="certificates">
+        <div class="c-grid">
+          <div class="certificates__wrapper">
+            <h2 class="certificates__title">Certyfikaty i członkostwa</h2>
+            <p class="certificates__text">Produkty <span>DTE Systems</span> posiadają certyfikację <span>niemieckiego oraz austryjackiego TÜV</span> przy wsparciu organizacji <span>Dekra</span>, zaś sama firma jest członkiem takich organizacji jak <span>KÜS</span> oraz <span>VDAT</span>.</p>
+            <div class="certificates__img-wrapper">
+              <div class="certificates__img"><img src="./img/img-logo.png" srcset="./img/img-logo@2x.png 2x" alt="" title=""></div>
+              <div class="certificates__img"><img src="./img/img-logo.png" srcset="./img/img-logo@2x.png 2x" alt="" title=""></div>
+              <div class="certificates__img"><img src="./img/img-logo.png" srcset="./img/img-logo@2x.png 2x" alt="" title=""></div>
+              <div class="certificates__img"><img src="./img/img-logo.png" srcset="./img/img-logo@2x.png 2x" alt="" title=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION CERTIFICATES :: END-->
+      <!-- REDUCED :: START-->
+      <section class="reduced" id="reduced">
+        <div class="reduced__wrapper reduced__wrapper-0">
+          <div class="c-grid">
+            <div class="reduced__row reduced__row-0">
+              <div class="reduced__row-left"><img src="./img/img-item-reduced.png" srcset="./img/img-item-reduced@2x.png 2x" alt="" title=""></div>
+              <div class="reduced__row-right">
+                <h2 class="reduced__title">Zmniejszone zużycie paliwa</h2>
+                <p class="reduced__text"><span>Dlaczego urządzenie powodujące szybsze przyspieszanie zmniejsza zużycie paliwa?</span> Ponieważ z podstawowych zasad Eco Drivingu wynika właśnie, że im szybciej osiągniemy zadaną prędkość, tym silnik zużyje mniej paliwa. Stąd PedalBox, który zwiększa i przyspiesza reakcję pedału gazu, powoduje rzadszą potrzebę zajeżdżania pod dystrybutor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reduced__wrapper reduced__wrapper-1">
+          <div class="reduced__wrapper-bg"><span></span><span></span><span></span></div>
+          <div class="c-grid">
+            <div class="reduced__row reduced__row-1">
+              <div class="reduced__row-left">
+                <h2 class="reduced__subtitle">Sprawdź ofertę dla Twojego samochodu:</h2>
+              </div>
+              <div class="reduced__row-right">
+                <form class="c-form" action="" method="">
+                  <div class="c-form__group c-form__group--select">
+                    <div class="c-form__group-col c-form__group-col-0">
+                      <div class="c-form__field c-form__field--select">
+                        <div class="c-form__select-wrap">
+                          <select name="" select-js>
+                            <option value="1">Pokażemy Ci co możemy z nim zrobić!</option>
+                            <option value="1">Marka</option>
+                            <option value="1">Marka</option>
+                            <option value="1">Marka</option>
+                            <option value="1">Marka</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="c-form__group-col c-form__group-col-1">
+                      <div class="c-form__field c-form__field--select">
+                        <div class="c-form__select-wrap">
+                          <select name="" select-js>
+                            <option value="1">Pokażemy Ci co możemy z nim zrobić!</option>
+                            <option value="1">Model</option>
+                            <option value="1">Model</option>
+                            <option value="1">Model</option>
+                            <option value="1">Model</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="c-form__group-col c-form__group-col-2">
+                      <div class="c-form__field c-form__field--select">
+                        <div class="c-form__select-wrap">
+                          <select name="" select-js>
+                            <option value="1">Pokażemy Ci co możemy z nim zrobić!</option>
+                            <option value="1">Silnik</option>
+                            <option value="1">Silnik</option>
+                            <option value="1">Silnik</option>
+                            <option value="1">Silnik</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- REDUCED :: END-->
+    </div>
+    <!-- FOOTER :: START-->
+    <footer class="footer" id="footer">
+      <div class="footer__bar">
+        <div class="c-grid">
+          <div class="footer__wrapper footer__wrapper-0">
+            <div class="footer__wrapper-left"><a class="contact__col contact__col-0" href="tel:221855911">
+                <div class="contact__col-img"><img src="./img/hp_factory_icons_phone_footer.png"></div>
+                <div class="contact__col-text">
+                  <p>+48 22 1855 911</p><span>Dzwoń od poniedziałku do piątku 09:00-19:00!</span>
+                </div></a><a class="contact__col contact__col-1" href="mailto:info@hpfactory.pl">
+                <div class="contact__col-img"><img src="./img/hp_factory_icons_mail_footer.png"></div>
+                <div class="contact__col-text">
+                  <p>info@hpfactory.pl</p><span>Pisz codziennie o każdej porze!</span>
+                </div></a></div>
+            <div class="footer__wrapper-middle">
+              <div class="social">
+                <ul class="social__list">
+                  <li class="social__item"><a class="social__link social__link--fb" href="http://www.facebook.com/hpfactorypl/" title="Facebook"><i class="icon-font icon-facebook-logo"></i></a></li>
+                  <li class="social__item"><a class="social__link social__link--yb" href="http://www.youtube.com/user/PatrickvanDrunen/" title="YouTube"><i class="icon-font icon-youtube-logo"></i></a></li>
+                  <li class="social__item"><a class="social__link social__link--in" href="http://instagram.com/hpfactorypl/" title="Instagram"><i class="icon-font icon-instagram-logo"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__wrapper-right"><img src="./img/img-footer-car.png" srcset="./img/img-footer-car@2x.png 2x" alt="" title=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="c-grid">
+        <div class="footer__wrapper footer__wrapper-1">
+          <div class="footer__wrapper-left">
+            <div class="social">
+              <ul class="social__list">
+                <li class="social__item"><a class="social__link social__link--fb" href="http://www.facebook.com/hpfactorypl/" title="Facebook"><i class="icon-font icon-facebook-logo"></i></a></li>
+                <li class="social__item"><a class="social__link social__link--yb" href="http://www.youtube.com/user/PatrickvanDrunen/" title="YouTube"><i class="icon-font icon-youtube-logo"></i></a></li>
+                <li class="social__item"><a class="social__link social__link--in" href="http://instagram.com/hpfactorypl/" title="Instagram"><i class="icon-font icon-instagram-logo"></i></a></li>
+              </ul>
+            </div>
+            <nav class="nav nav--footer">
+              <ul class="nav__list">
+                <li class="nav__item nav__item-0"><a class="nav__link nav__link-0" href="/" title="">Strona główna</a></li>
+                <li class="nav__item-empty"><span>|</span></li>
+                <li class="nav__item nav__item-1"><a class="nav__link nav__link-1" href="#" title="">FAQ</a></li>
+                <li class="nav__item-empty"><span>|</span></li>
+                <li class="nav__item nav__item-2"><a class="nav__link nav__link-2" href="./o-nas" title="">O nas</a></li>
+                <li class="nav__item-empty"><span>|</span></li>
+                <li class="nav__item nav__item-3"><a class="nav__link nav__link-3" href="/regulamin" title="">Regulamin</a></li>
+                <li class="nav__item-empty"><span>|</span></li>
+                <li class="nav__item nav__item-4"><a class="nav__link nav__link-4" href="/kontakt" title="">Kontakt</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__wrapper-right">
+            <div class="copyright">
+              <p>Copyright © HP Factory. <span>All rights reserved. Wszelkie prawa zastrzeżone.<span></p><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+              <div class="logofooter logofooter--footer"><a class="logofooter__link" href="/" title=""><img class="logofooter__img" srcset="./img/hp_factory_icons_hp_factory_logo_footer.png" alt="" title=""/></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER :: END-->
+  </body>
+  <!-- SCRIPT :: START-->
+  <!-- SCRIPT :: END-->
+</html>
